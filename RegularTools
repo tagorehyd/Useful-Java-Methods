@@ -1,5 +1,5 @@
 public class RegularTools{
-static ArrayList<ArrayList<String>> Combinations(String[]s,int siz){
+static ArrayList<ArrayList<String>> combinations(String[]s,int siz){
         ArrayList<ArrayList<String>> arr=new ArrayList<>();
         int c=(int)Math.pow(2,s.length);
         for (int i=0;i<c;i++){
