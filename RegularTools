@@ -17,5 +17,7 @@ static ArrayList<ArrayList<String>> combinations(String[]s,int siz){
         arr.sort(Comparator.comparing(AbstractCollection::toString));
         arr.sort(Comparator.comparing(ArrayList::size));
         return  arr;
+        //Regex to match passwords
+      //String str="((?=.*\\p{Digit})(?=.*\\p{Lower})(?=.*\\p{Upper})(?=.*\\p{Punct}).{6,})";
     }
 }
